@@ -1,0 +1,98 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  text-align: center;
+}
+.main-header {
+  padding-bottom: 15%;
+  width: 100%;
+  background-size: cover;
+  background-image: url("../images/header.jpg");
+  background-attachment: fixed;
+}
+/* ここから */
+header {
+  background-color: #2d2d2d;
+  height: 50px;
+  font-size: 16px;
+  font-family: 'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+  font-style:bold;
+}
+header ul {
+  list-style: none;
+}
+header ul a {
+  color:#fff;
+  text-decoration: none;
+
+}
+.left{
+  float: left;
+  padding-top: 3px;
+  padding-right: 30px;
+}
+.right{
+  float: right;
+  padding-left: 20px;
+  padding-top: 3px;
+  padding-right: 10px;
+}
+/* ここまでがheader部分の実装 */
+
+.main-header img {
+/* main画像（白い「Achieve」の文字の画像）部分の実装 */
+max-width: 50%;
+max-height: 30%;
+margin-top: 20%;
+}
+.about {
+  font-family: 'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+}
+.about h1{
+font-style: bold;
+padding-bottom: 30px;
+}
+.about p{
+  color:#505050;
+  padding-bottom: 20px;
+
+}
+
+/* ここから */
+.function {
+  background-color: #cdcdcd;
+  font-family: 'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+  height: 500px;
+}
+.function h1{
+  padding-top: 30px;
+  font-family: 'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+  font-style: bold;
+}
+.function-images {
+  display: table;
+  width:60%;
+  margin: 0px auto;
+
+}
+.function-image {
+  display:table-cell;
+  margin: 0px 10px;
+  padding:20px;  
+}
+/* ここまでがfunction部分の実装 */
+footer {
+background-color: #273646;
+color: white;
+height: 60px;
+margin: -20px;
+text-align: center;
+font-size: small;
+padding-top: 15px;
+line-height: 10px;
+font-style: bold;
+/* footer部分の実装 */
+}
+/* ここに書かれているcssの記述はあくまでヒントとして用意された雛形なので、書かれている記述に従わずに実装したいという場合は、自分の好きに実装して構わない。課題要件を満たし、コードの品質が一定の水準にあると判定されればどのような実装でも合格になる。 */
